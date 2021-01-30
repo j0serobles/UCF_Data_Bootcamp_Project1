@@ -1,12 +1,11 @@
 # Proposal For Project 1 - Predicting Heart Failure 
-Prediction of Heart Failure based on the existence of Risk Factors.
+There are many risk factors associated with heart failure. In this project, we attempt to find if there is a strong correlation between several individual risk factor and the final occurence of heart failure.
 
 ## Team Members (Group # 3) 
 * Alciluz Gomez
 * Stephanie Rivas
 * Andrew Correa
 * Jose Robles
-
 
 ## Project Proposal
 
@@ -19,8 +18,8 @@ several risk factors.
 
 The questions we will be asking the data are:
 
-* What are the correlations between heart failure cases and each individual risk factor?
-* What are the strongest correlations?
+* Is there a correlation of each individual risk factor and death by heart failure? 
+* If there is a correlation, how strong is it?
 * Is there a higher risk of heart failure if a patient has three or more risk factors?
 * Are smokers more at risk vs those with diabetes for heart failure?
 * Are males vs females more at risk for heart failure?
