@@ -24,3 +24,5 @@ the active cases data.  Is there a relation between them?
 * What are the best type of charts for the number of cases?  For the number of tests?  For the correlation analysis?
 
 
+
+
