@@ -26,6 +26,8 @@ The questions we will be asking the data are:
 
 * Is race diversity a statically significant factor in determining the median income in the United States? 
 * Are there other factors to consider that can affect income distribution among races?
+* How does marital status affect income distribution among races?
+* Is the education level significant in determining the median income for a race group?
 
 
 
