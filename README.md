@@ -20,6 +20,9 @@ We assumed the median income data downloaded from the [Census website](https://w
 
 ## Major Findings
 
+
+
+
 ### Question #1 : 
 
 *Is income diversity between major ethnic groups in the US statistically significant?*
@@ -37,3 +40,80 @@ This analysis examines income distribution among races in the United States, usi
 ![Median Income Over Time](./images/q1_line_plot.PNG)
 
  To determine whether the differences are statistically significant, two test were performed. An ANOVA analysis and Kruskal-Wallis tests. The null hypothesis states that the means for the income of the four categories of races are equal. The Alternate hypothesis states that at least one of the four categories is significant different from others. The ANOVA resulted in a p<.05 leading to rejecting the null hypothesis. Since the data does not assume the population were equal amongst each racial group, a Kruskal-Wallis test was performed. As a result of the comparison, the differences among all pairs of races are statistically significant except the difference between Black Only and Hispanics Only Households.
+ 
+ 
+ 
+ 
+ 
+ 
+ ### Question #2 : 
+
+*Is marital status a significant factor in the median income of households?*
+
+Here we examine the median income of married households vs that of unmarried households (single female or single male as head of household).  We found married households display a higher median income than unmarried ones, for all ethnic groups. The mean values by race also follow the findings in the previous question, where the Asian-Only group has the highest income, while Black-Only and Hispanic have the lowest. 
+
+#### Figure 3: Median Income for Married vs Single Households 2015-2019
+
+
+![Median Income and Marital Status](./images/line_plot_median_income_2015_2019.png)
+
+For hypothesis testing, our hypothesis were:
+
+![hypothesis_question2](./images/q2_marital_status_hypothesis.png)
+
+The null hypothesis states that for both groups (married and unmarried), the median income is the same.  The alternate hypothesis says there is a statistically significant difference in the median incomes between married and unmarried groups. 
+
+We tested the hypothesis using a independent t-test.  Using the Pandas library, we created a data frame with the following data frame (`line_plot_df`):
+
+| Year | Race | Married Median Income | Unmarried Median Income | 
+|------|------|-----------------------|-------------------------|
+
+And executed the t-test using the following code, using the ttest_ind() call from the scipy module.
+
+```
+population1 = line_plot_df["Unmarried"]
+population2 = line_plot_df["Married"]
+stats.ttest_ind(population1, population2, equal_var=False)
+```
+The results were:
+
+`Ttest_indResult(statistic=-9.879841269215676, pvalue=1.965136854688217e-12)`
+
+Since the *p* value is much smaller than 0.05 we can confidently reject the null hypothesis and say that the income difference is statistically significant.
+
+
+
+
+### Question #3 : 
+
+*Is the education level significant in determining the median income for a race group?*
+
+
+Our data study finds that the comparable education levels did not appear to bare weight on median income by race. In analysis for comparable educational levels, the Asian race consistently earned the most median income while the Black/African-American race consistently earned the least. This remained true for White and Hispanic consistently being 2nd and 3rd most, respectively.
+
+#### Figure 4: Median Income vs. Achieved Level of Education
+
+![q3EducationLinePlot](./images/q3_line_plot_education.png)
+
+#### Figure 5: Median Income vs Race and Achieved Level of Education
+
+![q3EducationBarPlot](./images/q3_composite_bar_plot_education.png)
+
+
+
+
+
+### Question #4 : 
+
+*Is region also a factor that can affect income distribution among races?*
+
+
+#### Figure 6: Income vs Race and Region
+
+![q4_incomeracevsregionbyyear](./images/q4_Incomeracevsregionbyyear.png)
+
+#### Figure 7: Median Income vs Race and Achieved Level of Education
+
+![q4_incomeracevsregionbyyear2](./images/q4_Incomeracevsregionbyyear2.png)
+
+
