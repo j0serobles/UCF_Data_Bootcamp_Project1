@@ -26,4 +26,10 @@ We assumed the median income data downloaded from the [Census website](https://w
 
 This analysis examines income distribution among races in the United States, using median income data from the U. S. census statistics for White, Black, Asian, and Hispanic families for the years 2015 - 2019. The analysis  first determines whether the income diversity among race groups is statistically significant. As indicated in the following graphs, there are imbalances among the race groups.
 
+### Median Income By Race 2015-1029
+
+![Median Income by Race 2015-2019](./images/q1_bar_plot.PNG)
+
+(**AL=All Races** **WO=White Only** **BO=Black Only** **AO=Asian Only** **HI=Hispanic (All races)**)
+
  To determine whether the differences are statistically significant, two test were performed. An ANOVA analysis and Kruskal-Wallis tests. The null hypothesis states that the means for the income of the four categories of races are equal. The Alternate hypothesis states that at least one of the four categories is significant different from others. The ANOVA resulted in a p<.05 leading to rejecting the null hypothesis. Since the data does not assume the population were equal amongst each racial group, a Kruskal-Wallis test was performed. As a result of the comparison, the differences among all pairs of races are statistically significant except the difference between Black Only and Hispanics Only Households.
