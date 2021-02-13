@@ -59,7 +59,7 @@ Here we examine the median income of married households vs that of unmarried hou
 
 For hypothesis testing, our hypothesis were:
 
-![hypothesis_question2](./images/q2_marital_status_hypothesis.png)
+![hypothesis_question2](./images/q2_marital_status_hypothesis.PNG)
 
 The null hypothesis states that for both groups (married and unmarried), the median income is the same.  The alternate hypothesis says there is a statistically significant difference in the median incomes between married and unmarried groups. 
 
