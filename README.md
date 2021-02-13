@@ -93,11 +93,11 @@ Our data study finds that the comparable education levels did not appear to bare
 
 #### Figure 4: Median Income vs. Achieved Level of Education
 
-![q3EducationLinePlot](./images/q3_line_plot_education.png)
+![q3EducationLinePlot](./images/q3_line_plot_education.PNG)
 
 #### Figure 5: Median Income vs Race and Achieved Level of Education
 
-![q3EducationBarPlot](./images/q3_composite_bar_plot_education.png)
+![q3EducationBarPlot](./images/q3_composite_bar_plot_education.PNG)
 
 
 
@@ -108,12 +108,29 @@ Our data study finds that the comparable education levels did not appear to bare
 *Is region also a factor that can affect income distribution among races?*
 
 
-#### Figure 6: Income vs Race and Region
+#### Figure 6: US Income per Race and Region (2015-2019)
 
 ![q4_incomeracevsregionbyyear](./images/q4_Incomeracevsregionbyyear.png)
 
-#### Figure 7: Median Income vs Race and Achieved Level of Education
+#### Figure 7: US Median Income per Race and Region (2015-2019) (2)
 
 ![q4_incomeracevsregionbyyear2](./images/q4_Incomeracevsregionbyyear2.png)
+
+
+## Implications
+
+* Income disparity across ethnic groups is statistically significant . 
+
+* On average, married households show a higher income.  But this does not mean causation.  Other conditions should be considered.  For example, married households could have dual incomes, thus the higher values.  They also have the ability to share more economic risks, with higher rewards. 
+
+* The Asian and White races have a higher amount of income in comparable levels of  educational attainment whereas the Black and Hispanic community consistently lag behind
+
+* Regions can make a difference in the median income, but we cannot affirm the same for races since it is necessary to study the population in each region.
+
+
+
+
+
+
 
 
