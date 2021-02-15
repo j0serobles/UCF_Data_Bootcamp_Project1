@@ -114,15 +114,15 @@ For this analysis, the following graphs are made to study the behavior of the me
 
 The fist graph is a subplots of charts by year that shows the median income in each region by race in 5 years, and in this graph the region with greater median income is northeast for all the races, but it changes among races, this may be due to the population of each region.
 
-![subplots year](Images/Incomeracevsregionbyyear.png)
+![subplots year](images/Incomeracevsregionbyyear.png)
 
 The second graph is a line graph of subplots of charts by race that shows the median income values by region in 5 years. this graphs affirm the information obtanied for the first chart. Northeast is the region that have the greater median income for almost all the races.
 
-![subplots race](Images/Incomevsrace_region.png)
+![subplots race](images/Incomevsrace_region.png)
 
 The third graph shows a suplots of chart by Region showing the median income by races in five years. This chart shows that asian race have the greater median income in all the regions, so this can due to several factors like level education, asian population in the region, more companies hiring asian people, so this is a good point to investigate further.
 
-![subplots region](Images/Incomevsregion_race.png)
+![subplots region](images/Incomevsregion_race.png)
 
 This graphs shows a relevant increase in 2018 in relation to the black race and a significant decrease in the white race that in 2019 the trends are reversed in all the regions. This could be due to various factors such as the increase in the hiring of the black race, the fact that the black race has increased its level of education, it is really another study to analyze.
 The Hispanic race has the lowest median income, but has positive trends.
@@ -131,14 +131,14 @@ The last graphs shows the median income of the races by country, In this graphic
 In 2018, Asian, black and hispanic with with a increase in median income and  white with a decrease in median income.
 In 2019, Asian maintain their average income level, black with a decrease in median income, white and hispanic with a increase in median income.
 
-![subplots country](Images/incomecountry_race.png)
+![subplots country](images/incomecountry_race.png)
 
 Certainly there are regions with a median income value better than others, and these can affect the income values for each race.
 The population of each race in each region can be a factor that have to take in consideration to get a better conclusion.
 
 The stadictic values using annova by races are:
 
-![stadistic values](Images/stadistic_values.png)
+![stadistic values](images/stadistic_values.png)
 
 
 
